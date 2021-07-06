@@ -6,7 +6,7 @@
 	<artifactId>domain-specification-spring-jpa</artifactId>
 	<packaging>jar</packaging>
 	<name>domain-specification-spring-jpa</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<description>Adapter for Spring JPA Domain Specification Pattern</description>
 
 	<parent>
@@ -32,18 +32,6 @@
 						<id>attach-sources</id>
 						<goals>
 							<goal>jar-no-fork</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
 						</goals>
 					</execution>
 				</executions>
